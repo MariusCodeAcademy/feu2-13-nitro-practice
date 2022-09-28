@@ -1,14 +1,15 @@
 @import url('https://necolas.github.io/normalize.css/8.0.1/normalize.css');
 @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css');
 @import 'reset.css';
+@import 'vars.css';
 
 /* Variables  */
 
-html {
+/* html {
   --main-color: #007bff;
   --main-dark-color: #333;
   --text-dark-color: #999;
-}
+} */
 /* Global styles */
 
 html {
@@ -266,58 +267,3 @@ h1 {
   background-color: #fff;
   padding: 0.6em 1.6em;
 }
-
-/* RESPONSIVE CSS ================================ */
-
-/* TABLET 600px ================================ */
-@media screen and (min-width: 600px) {
-  html {
-    font-size: 18px;
-  }
-
-  .d-none {
-    display: block;
-  }
-  /* Our team */
-  .team-container {
-    /* grid-template-columns: repeat(2, 1fr); */
-  }
-  /* Footer ------------------ */
-  .footer-grid {
-    grid-template-columns: repeat(2, 1fr);
-    gap: 1.2rem;
-  }
-}
-
-/* DESKTOP 1000px ================================ */
-@media screen and (min-width: 1000px) {
-  html {
-    font-size: 20px;
-  }
-  .container {
-    max-width: 1140px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-  /* Header */
-  .main-nav > ul {
-    display: flex;
-  }
-
-  .burger {
-    display: none;
-  }
-
-  /* Our team */
-  .team-container {
-    /* grid-template-columns: repeat(4, 1fr); */
-  }
-
-  /* Footer ------------------ */
-  .footer-grid {
-    grid-template-columns: 1fr 0.7fr auto 1fr;
-  }
-}
-/* footer 4 cols */
-/* our team 4 cols */
-/* hide burger, show nav */
