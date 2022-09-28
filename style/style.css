@@ -58,6 +58,10 @@ section {
   padding-bottom: 10%;
 }
 
+.d-none {
+  display: none;
+}
+
 /* Header */
 
 .main-header {
@@ -217,4 +221,27 @@ h1 {
   border-color: #fff;
   background-color: #fff;
   padding: 0.6em 1.6em;
+}
+
+/* RESPONSIVE CSS ================================ */
+
+/* TABLET 600px ================================ */
+@media screen and (min-width: 600px) {
+  html {
+    font-size: 18px;
+  }
+
+  .d-none {
+    display: block;
+  }
+
+  /* Footer ------------------ */
+  .footer-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.2rem;
+  }
+  /* Our team */
+  .team-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
