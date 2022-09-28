@@ -194,3 +194,27 @@ h1 {
   padding: 1em;
   font-size: 1rem;
 }
+
+/* footer form */
+.footer__form {
+  display: flex;
+}
+
+.footer__form input {
+  border-radius: 0;
+  border-top-left-radius: 2rem;
+  border-bottom-left-radius: 2rem;
+  background-color: transparent;
+  border: 1px solid #fff;
+  flex-grow: 1;
+  padding: 0.6em;
+  color: #fff;
+}
+.footer__form button {
+  border-radius: 0;
+  border-top-right-radius: 2rem;
+  border-bottom-right-radius: 2rem;
+  border-color: #fff;
+  background-color: #fff;
+  padding: 0.6em 1.6em;
+}
