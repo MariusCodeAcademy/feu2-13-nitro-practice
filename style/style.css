@@ -170,6 +170,21 @@ h1 {
   padding-top: 0.8rem;
   padding-left: 0.8rem;
 }
+.team-img-container {
+  position: relative;
+}
+.our-team__social-list {
+  position: absolute;
+  background-color: var(--main-color);
+  color: #fff;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+.our-team__social-link {
+  padding: 10px;
+  display: block;
+}
 
 /* Footer ------------------ */
 
