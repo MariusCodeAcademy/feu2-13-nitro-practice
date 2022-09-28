@@ -100,7 +100,6 @@ section {
 
 .main-nav > ul {
   display: none;
-  display: flex;
   gap: 0.5rem;
 }
 
@@ -218,6 +217,10 @@ h1 {
   font-size: 1rem;
 }
 
+.social-link:first-child {
+  padding-left: 0;
+}
+
 /* footer form */
 .footer__form {
   display: flex;
@@ -266,6 +269,9 @@ h1 {
 
 /* DESKTOP 1000px ================================ */
 @media screen and (min-width: 1000px) {
+  html {
+    font-size: 20px;
+  }
   .container {
     max-width: 1140px;
     margin-left: auto;
@@ -283,6 +289,11 @@ h1 {
   /* Our team */
   .team-container {
     grid-template-columns: repeat(4, 1fr);
+  }
+
+  /* Footer ------------------ */
+  .footer-grid {
+    grid-template-columns: 1fr 0.7fr auto 1fr;
   }
 }
 /* footer 4 cols */
