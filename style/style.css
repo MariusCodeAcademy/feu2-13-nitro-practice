@@ -26,6 +26,10 @@ html {
 
 .main-header {
   background-color: #fff;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
 }
 .main-header .container {
   display: flex;
@@ -45,4 +49,13 @@ html {
 
 .burger {
   font-size: 22px;
+}
+
+/* Hero section  */
+
+.hero {
+  background-color: gray;
+  color: #fff;
+  height: 100vh;
+  /* patalpinti viska i viduri */
 }
