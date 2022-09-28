@@ -7,6 +7,7 @@
 html {
   --main-color: #007bff;
   --main-dark-color: #333;
+  --text-dark-color: #999;
 }
 /* Global styles */
 
@@ -146,4 +147,50 @@ h1 {
 .team-card__description {
   padding-top: 0.8rem;
   padding-left: 0.8rem;
+}
+
+/* Footer ------------------ */
+
+.footer {
+  padding-top: 12%;
+  background-color: var(--main-dark-color);
+  color: #fff;
+}
+
+.footer__title {
+  font-weight: normal;
+}
+
+.footer p,
+.footer-nav,
+.footer .fa {
+  color: var(--text-dark-color);
+}
+
+.footer-grid {
+  display: grid;
+  gap: 1rem;
+  margin-bottom: 3rem;
+}
+
+.footer__hr {
+  height: 1px;
+  background-color: var(--text-dark-color);
+  max-width: 80%;
+  margin: auto;
+}
+.footer-bottom p {
+  padding: 2rem 0;
+  text-align: center;
+}
+
+.footer-nav {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+
+.social-link {
+  padding: 1em;
+  font-size: 1rem;
 }
